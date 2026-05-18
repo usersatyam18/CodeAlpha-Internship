@@ -121,4 +121,49 @@ section h2{
 
 #contact{
   background:#020617;
+}.profile-pic{
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #38bdf8;
+    box-shadow: 0 0 30px rgba(56, 189, 248, 0.6);
+    margin-bottom: 30px;
+    transition: 0.4s ease;
+}
+
+.profile-pic:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 40px rgba(56, 189, 248, 0.9);
+}
+
+
+.project-card:hover{
+  transform:translateY(-10px) scale(1.02);
+  box-shadow:0 0 20px rgba(56,189,248,0.3);
+}
+
+.skill:hover{
+  background:#38bdf8;
+  color:black;
+  transition:0.3s;
+}
+
+@media(max-width:768px){
+
+  .hero h1{
+    font-size:38px;
+  }
+
+  nav{
+    flex-direction:column;
+  }
+
+  nav ul{
+    margin-top:20px;
+  }
+
+  section{
+    padding:60px 5%;
+  }
 }
