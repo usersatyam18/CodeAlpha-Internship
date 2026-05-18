@@ -1,43 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Satyam Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Satyam Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Satyam</h1>
-        <h2>Frontend Developer</h2>
-    </header>
-    <section class="about">
-        <h3>About Me</h3>
-        <p>
-            I am a passionate frontend developer with a knack for creating visually appealing and user-friendly websites. With a strong foundation in HTML, CSS, and JavaScript, I strive to bring innovative ideas to life through my work. I am constantly learning and staying updated with the latest trends in web development to ensure that my projects are modern and efficient.
-        </p>
-    </section class="skills">
-    <section class="skills">
-      <div class="skill-box">Html></div>
-      <div class="skill-box">CSS</div>
-      <div class="skill-box">JavaScript</div>
-      <div class="skill-box">Python</div>
-    </section>
-    <section class="projects">
-        <h3>Projects</h3>
-        <div class="Card">
-            <h3>calculator project</h3>
-            <p>A simple calculator application built with HTML, CSS, and JavaScript.</p>
-        </div>
-        <div class="Card">
-            <h3>image gallery</h3>
-            <p>A responsive image gallery showcasing a collection of beautiful photographs.</p>
-        </div>
-    </section>  
-    <section class="contact">
-        <h2>Contact </h2>
-        <p>Email: satyamyadav1828y@gmail.com</p>    
-    </section>
-    <script src="script.js"></script>
+
+  <header>
+    <nav>
+      <h2 class="logo">Satyam.</h2>
+
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero">
+      <h1>Hello, I'm <span>Satyam Yadav</span></h1>
+      <p>Frontend Web Developer & B.Tech Student</p>
+
+      <a href="#projects" class="btn">View Projects</a>
+    </div>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+
+    <p>
+      I am a passionate B.Tech student interested in frontend development,
+      responsive websites, and modern UI design.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+
+    <div class="skills-container">
+      <div class="skill">HTML</div>
+      <div class="skill">CSS</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">Python</div>
+      <div class="skill">GitHub</div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project-card">
+      <h3>Portfolio Website</h3>
+      <p>Responsive personal portfolio website.</p>
+    </div>
+
+    <div class="project-card">
+      <h3>Calculator App</h3>
+      <p>Calculator using HTML, CSS and JavaScript.</p>
+    </div>
+
+    <div class="project-card">
+      <h3>Image Gallery</h3>
+      <p>Responsive image gallery with hover effects.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+
+    <p>Email: satyamyadav1828y@gmail.com</p>
+
+    <p>
+      LinkedIn:
+      https://www.linkedin.com/in/satyam-yadav-a9ba56323/
+    </p>
+  </section>
+
+  <script src="script.js"></script>
 </body>
 </html>
